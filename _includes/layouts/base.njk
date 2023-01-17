@@ -6,44 +6,72 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
 
-    {#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-    {#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+    <meta name="generator" content="{{ eleventy.generator }}">
 
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-diff.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/index.min.css' | url }}">
+    <link rel="shortcut icon" href='/img/pizza-icon.png'>
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta content="@lynnandtonic" name="twitter:site">
+    <meta content="@lynnandtonic" name="twitter:creator">
+    <meta content="{{ description }}" property="og:description">
+    <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="og:url">
+    <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="twitter:url">
+    <meta content="{{ title or metadata.title }}" name="twitter:title" property="og:title">
+    {% if og %}
+      <meta content="https://lynnandtonicblog.com/img/{{ og }}" property="og:image">
+      <meta content="https://lynnandtonicblog.com/img/{{ og }}" name="twitter:image">
+    {% else %}
+      <meta content="https://lynnandtonicblog.com/img/og-blog.jpg" property="og:image">
+      <meta content="https://lynnandtonicblog.com/img/og-blog.jpg" name="twitter:image">
+    {% endif %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   </head>
+
   <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    <div class="container">
+      <header class="header-main">
+        <nav>
+          {% if templateClass == "tmpl-home" %}
+            <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+          {% else %}
+            <a href="{{ '/' | url }}" class="home">{{ metadata.title }}</a>
+          {% endif %}
+          <a href="/feed/feed.xml">RSS</a>
+          <a href="https://lynnandtonic.com">Portfolio</a>
+        </nav>
+      </header>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
-    </header>
-
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-      <!-- Delete this message -->
-      <div class="infobox">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
-      <!-- Stop deleting -->
-
-      {{ content | safe }}
-    </main>
-
-    <footer></footer>
+      <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        {{ content | safe }}
+      </main>
+      <aside>
+        <img src="/img/illo-lynn-rainbow-sm.jpg" alt="cartoon Lynn with a rainbow extending from her open hands">
+        <p>My name is Lynn Fisher and I am a designer and CSS developer out of Phoenix, Arizona.</p>
+        <p>I make weird projects for the web:</p>
+        <ul class="web-links">
+          <li>🎬 <a href="https://nestflix.fun">nestflix.fun</a></li>
+          <li>🎨 <a href="https://a.singlediv.com">a.singlediv.com</a></li>
+          <li>✈️ <a href="https://airportcod.es">airportcod.es</a></li>
+          <li>🔪 <a href="https://topchefstats.com">topchefstats.com</a></li>
+          <li>🎥 <a href="https://hollywoodagegap.com">hollywoodagegap.com</a></li>
+          <li>🍤 <a href="https://thefoodplace.cafe">thefoodplace.cafe</a></li>
+          <li>🌵 <a href="https://why.az">why.az</a></li>
+          <li>🇺🇸 <a href="https://usflags.design">usflags.design</a></li>
+          <li>👕 <a href="https://davidrose.style">davidrose.style</a></li>
+        </ul>
+        <p>Take a peek at <a href="https://lynnandtonic.com">my portfolio</a>, read more of my <a href="https://lynnandtonic.com/thoughts/">writing on dev and design</a>, or follow me on <a href="https://front-end.social/@lynnandtonic">Mastodon</a>.</p>
+        <hr>
+        <p>Browse posts by <a href="/tags/">tags</a>.</p>
+      </aside>
+    </div>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

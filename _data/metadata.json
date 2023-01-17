@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Lynnandtonic Blog",
+  "url": "https://lynnandtonicblog.com/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Lynn Fisher’s blog about life, art, design, film, television, music, dogs, and more.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Lynn Fisher’s blog about life, art, design, film, television, music, dogs, and more.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://lynnandtonicblog.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://lynnandtonicblog.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Lynn Fisher",
+    "email": "lynn@lynnandtonic.com",
+    "url": "https://lynnandtonic.com/about"
   }
 }

@@ -5,8 +5,10 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
+const slugify = require("slugify");
+// const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+// const pluginNavigation = require("@11ty/eleventy-navigation");
+
 
 module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -15,11 +17,36 @@ module.exports = function(eleventyConfig) {
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
-  eleventyConfig.addPlugin(pluginNavigation);
+  // eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  // eleventyConfig.addPlugin(pluginNavigation);
+
+  eleventyConfig.setFrontMatterParsingOptions({
+    excerpt: true
+  });
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+
+    eleventyConfig.addFilter("pathDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy/LL/dd");
+  })
+
+  // markdown for excerpt
+  eleventyConfig.addFilter("md2", function (content = "") {
+    return markdownIt({ html: true }).render(content);
+  });
+
+  eleventyConfig.addFilter("slug", (str) => {
+    if (!str) {
+      return;
+    }
+
+    return slugify(str, {
+      lower: true,
+      strict: true,
+      remove: /['"“”‘’@*()%$#:.,!?+=]/g,
+    });
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
@@ -71,7 +98,7 @@ module.exports = function(eleventyConfig) {
       symbol: "#"
     }),
     level: [1,2,3,4],
-    slugify: eleventyConfig.getFilter("slugify")
+    // slugify: eleventyConfig.getFilter("slugify")
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 

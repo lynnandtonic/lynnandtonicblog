@@ -16,17 +16,19 @@ eleventyExcludeFromCollections: true
   },
   "items": [
     {%- for post in collections.posts | reverse %}
-    {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
-    {
-      "id": "{{ absolutePostUrl }}",
-      "url": "{{ absolutePostUrl }}",
-      "title": "{{ post.data.title }}",
-      "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
-      "date_published": "{{ post.date | rssDate }}"
-    }
-    {%- if not loop.last -%}
-    ,
-    {%- endif -%}
+      {%- if loop.index0 "<" 10 -%}
+        {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+        {
+          "id": "{{ absolutePostUrl }}",
+          "url": "{{ absolutePostUrl }}",
+          "title": "{{ post.data.title }}",
+          "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+          "date_published": "{{ post.date | rssDate }}"
+        }
+        {%- if not loop.last -%}
+        ,
+        {%- endif -%}
+      {%- endif -%}
     {%- endfor %}
   ]
 }

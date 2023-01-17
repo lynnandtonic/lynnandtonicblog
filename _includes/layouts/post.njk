@@ -2,24 +2,36 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<article class="entry">
+  <h1 class="entry-title">{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList %}
-{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
+  <time datetime="{{ page.date | htmlDateString }}" class="entry-date">{{ page.date | readableDate }}</time>
 
-{{ content | safe }}
+  <div class="entry-content">
+    {{ content | safe }}
+  </div>
 
-{%- if collections.posts %}
-{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-{%- if nextPost or previousPost %}
-<hr>
-<ul>
-  {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-  {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
+  <div class="entry-tags">
+    Tagged 
+    {%- for tag in tags | filterTagList %}
+    {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <span class="entry-tag"><a href="{{ tagUrl | url }}">{{ tag }}</a></span>
+    {%- endfor %}
+  </div>
+</article>
+
+<div class="pagination">
+  {%- if collections.posts %}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+  {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+  {%- if nextPost or previousPost %}
+
+  {%- if nextPost %}
+    <a href="{{ nextPost.url | url }}" class="pagination-newer">{{ nextPost.data.title }}</a>
+  {% endif %}
+  {%- if previousPost %}
+    <a href="{{ previousPost.url | url }}" class="pagination-older">{{ previousPost.data.title }}</a>
+  {% endif %}
+  {%- endif %}
+  {%- endif %}
+</div>

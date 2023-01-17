@@ -3,12 +3,42 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
+  reverse: true
+permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+{% for post in posts %}
+  <article class="entry">
+    <h2 class="entry-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+    <span class="entry-date">{{ post.data.date | readableDate }}</span>
+    {% if post.data.page.excerpt %}
+        <div class="entry-content">
+          {{ post.data.page.excerpt | md2 | safe }}
+        </div>
+    {% endif %}
+    <div class="entry-tags">
+      Tagged 
+      {% for tag in post.data.tags | filterTagList %}
+        {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+        <span class="entry-tag"><a href="{{ tagUrl | url }}">{{ tag }}</a></span>
+      {% endfor %}
+    </div>
+  </article>
+{% endfor %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<nav class="pagination">
+  {%  if pagination.href.previous %}
+    {% if pagination.pageNumber == 1 %}
+      <a href="/" class="pagination-newer">Newer posts</a>
+    {% else %}
+      <a href="{{ pagination.href.previous }}" class="pagination-newer">Newer posts</a>
+    {% endif %}
+  {% endif %}
+  {%  if pagination.href.next %}
+    <a href="/page/{{ pagination.pageNumber + 2 }}" class="pagination-older">Older posts</a>
+  {% endif %}
+</nav>
