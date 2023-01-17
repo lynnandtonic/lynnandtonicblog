@@ -9,7 +9,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: thejoker-at-disneyland.png
+og: thejoker-at-disneyland.jpg
 ---
 
 <p class="center">

@@ -8,7 +8,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: veruca-at-the-rodeo.png
+og: veruca-at-the-rodeo.jpg
 ---
 
 <p class="center">

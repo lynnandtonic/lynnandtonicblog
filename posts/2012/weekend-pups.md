@@ -10,7 +10,7 @@ tags:
   - instagram
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: instagram-boomhelo.png
+og: instagram-boomhelo.jpg
 ---
 
 Helo planning a ninja, food-stealing move.

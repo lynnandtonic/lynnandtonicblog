@@ -9,7 +9,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: margot-at-the-fair.png
+og: margot-at-the-fair.jpg
 ---
 
 ![Margot Tenenbaum holding some balloons](/img/margot-at-the-fair.png)

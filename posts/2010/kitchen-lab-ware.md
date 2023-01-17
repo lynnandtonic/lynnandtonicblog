@@ -9,7 +9,7 @@ tags:
   - food
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: mode-oil-vinegar.png
+og: mode-oil-vinegar.jpg
 ---
 
 ![oil and vinegar containers that look like flasks from a chemistry lab](/img/mode-oil-vinegar.png)

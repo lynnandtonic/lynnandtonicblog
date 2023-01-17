@@ -10,7 +10,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/tiffanyduening-at-hogwarts/
-og: tiffany-at-hogwarts.png
+og: tiffany-at-hogwarts.jpg
 ---
 
 <p class="center">

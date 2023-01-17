@@ -8,7 +8,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: donnie-at-the-dmv.png
+og: donnie-at-the-dmv.jpg
 ---
 
 <p class="center">

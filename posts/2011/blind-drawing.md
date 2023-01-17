@@ -7,7 +7,7 @@ tags:
   - illustration
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: blinddrawing1.png
+og: blinddrawing1.jpg
 ---
 
 ![very loose illustration of a figure model](/img/blinddrawing1.png)

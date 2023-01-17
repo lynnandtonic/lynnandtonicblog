@@ -7,7 +7,7 @@ tags:
   - instagram
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: instagram-monkey.png
+og: instagram-monkey.jpg
 ---
 
 ![a monkey dog toy on the carpet](/img/instagram-monkey.png)

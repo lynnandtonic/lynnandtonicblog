@@ -7,7 +7,7 @@ tags:
   - film
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: into-the-woods-4.png
+og: into-the-woods-4.jpg
 ---
 
 Last week I finally saw _Into the Woods_ and although I’m a huge fan of musicals and classic fairy tales, I didn’t love it. It was charming and funny at parts, but I suspect it works much better on stage than on film.

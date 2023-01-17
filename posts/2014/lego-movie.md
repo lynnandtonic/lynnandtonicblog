@@ -7,7 +7,7 @@ tags:
   - lego
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: lego-movie-2.png
+og: lego-movie-2.jpg
 ---
 
 For anyone who’s been a kid in the last handful of decades, you must see _The Lego Movie_. It’s seriously fun and the animation is just so so cool. Plus, I dare you to keep “Everything is Awesome” out of your head.

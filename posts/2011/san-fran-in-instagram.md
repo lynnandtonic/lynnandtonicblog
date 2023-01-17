@@ -9,7 +9,7 @@ tags:
   - instagram
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: sanfraninstagram-4.jpg
+og: sanfraninstagram-3.jpg
 ---
 
 ![](/img/sanfraninstagram-1.jpg)

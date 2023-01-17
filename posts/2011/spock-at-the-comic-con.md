@@ -10,7 +10,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: spock-at-the-comic-con.png
+og: spock-at-the-comic-con.jpg
 ---
 
 <p class="center">

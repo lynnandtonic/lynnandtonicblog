@@ -8,7 +8,7 @@ tags:
   - paris
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: nielly6.jpg"
+og: nielly3.jpg
 ---
 
 I distinctly remember one afternoon in Paris when I noticed an amazingly captivating painting through a gallery window. The gallery was closed for a late lunch and I couldn’t see any names or hints as to who the artist was. I shot a photo of it and would go back to it again and again.

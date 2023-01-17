@@ -22,11 +22,11 @@
     <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="twitter:url">
     <meta content="{{ title or metadata.title }}" name="twitter:title" property="og:title">
     {% if og %}
-      <meta content="https://lynnandtonicblog.com/img/{{ og }}" property="og:image">
-      <meta content="https://lynnandtonicblog.com/img/{{ og }}" name="twitter:image">
+      <meta content="https://lynnandtonicblog.com/img/_og/{{ og }}" property="og:image">
+      <meta content="https://lynnandtonicblog.com/img/_og/{{ og }}" name="twitter:image">
     {% else %}
-      <meta content="https://lynnandtonicblog.com/img/og-blog.jpg" property="og:image">
-      <meta content="https://lynnandtonicblog.com/img/og-blog.jpg" name="twitter:image">
+      <meta content="https://lynnandtonicblog.com/img/_og/og-blog.jpg" property="og:image">
+      <meta content="https://lynnandtonicblog.com/img/_og/og-blog.jpg" name="twitter:image">
     {% endif %}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

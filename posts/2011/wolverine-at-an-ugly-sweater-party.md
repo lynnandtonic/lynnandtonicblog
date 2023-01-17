@@ -10,7 +10,7 @@ tags:
   - christmas
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: wolverine-at-an-ugly-sweater-party.png
+og: wolverine-at-an-ugly-sweater-party.jpg
 ---
 
 <p class="center"><img src="/img/wolverine-at-an-ugly-sweater-party.png" alt="illustration of Wolverine from X-Men in an ugly Christmas sweater" style="max-width: 190px;" /></p>

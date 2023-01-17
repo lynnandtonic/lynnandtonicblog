@@ -9,7 +9,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: max-at-the-gym.png
+og: max-at-the-gym.jpg
 ---
 
 ![Max Fischer from Rushmore lifting weights](/img/max-at-the-gym.png)

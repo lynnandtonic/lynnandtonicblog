@@ -8,7 +8,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
-og: gogo-at-the-playboy-mansion.png
+og: gogo-at-the-playboy-mansion.jpg
 ---
 
 <p class="center">

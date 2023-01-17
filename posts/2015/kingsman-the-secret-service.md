@@ -7,7 +7,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: img/kingsman.jpg
+og: kingsman.jpg
 ---
 
 ![Colin Firth with a display of fancy spy gear behind him](/img/kingsman.jpg)

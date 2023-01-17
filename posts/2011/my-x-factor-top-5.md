@@ -7,7 +7,7 @@ tags:
   - television
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: xfactor-josh-krajcik.jpeg
+og: xfactor-josh-krajcik.jpg
 ---
 
 I’m usually hesitant to support contestants on these singing competition shows. My favorites _always_ lose. But, I’m kind of crazy about the U.S. version of the X-Factor. It’s like how _American Idol_ used to feel, but way better. I’m excited for the live shows to start and to see all of these amazing talents. These are my favorite five acts. I hope they go far!

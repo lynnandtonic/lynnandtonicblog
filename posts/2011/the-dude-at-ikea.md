@@ -8,7 +8,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: thedude-at-ikea.png
+og: thedude-at-ikea.jpg
 ---
 
 <p class="center">

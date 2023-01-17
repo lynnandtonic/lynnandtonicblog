@@ -8,7 +8,7 @@ tags:
   - character studies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: rufio-at-the-ren-faire.png
+jpgog: rufio-at-the-ren-faire.jpg
 ---
 
 <p class="center">

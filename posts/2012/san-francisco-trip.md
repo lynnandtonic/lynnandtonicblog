@@ -9,7 +9,7 @@ tags:
   - california
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: sanfran0412-4.jpg
+og: sanfran0412-5.jpg
 ---
 
 I spent the last four days in San Francisco with a few of my coworkers from meltmedia. We attended the design conference TYPO and also had some fun around the city. We visited Fisherman’s Wharf, the Japanese Tea Garden, rode the trolley, and ate plenty of delicious food. I also managed to fit in a viewing of Beach Blanket Babylon, the hilarious musical comedy show. While I gained plenty of inspiration and perspective, both professionally and personally, I am glad to be home with Clay and the two pups.

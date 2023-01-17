@@ -7,6 +7,7 @@ tags:
   - photography
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: 6939443122_cd5dc98d34.jpg
 ---
 
 Wow. Photographer [Jack Long](http://www.flickr.com/photos/oldschooljack/sets/72157629964895423/with/6919678994/) takes un-altered, single-capture shots of splashing liquid meant to look like flowers and vases. Takes high-speed photography to a new level and kind of blows my mind. Well done.

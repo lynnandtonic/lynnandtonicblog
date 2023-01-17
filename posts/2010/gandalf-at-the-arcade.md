@@ -9,7 +9,7 @@ tags:
   - lord of the rings
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: gandalf-at-the-arcade.png
+og: gandalf-at-the-arcade.jpg
 ---
 
 ![Gandalf playing Dance Dance Revolution](/img/gandalf-at-the-arcade.png)

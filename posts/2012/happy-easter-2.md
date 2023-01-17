@@ -8,7 +8,7 @@ tags:
   - easter
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
-og: Pantone-easter-eggs.png
+og: pantone-easter-eggs.jpg
 ---
 
 ![Easter eggs painted like Pantone color swatches](/img/Pantone-easter-eggs.png)

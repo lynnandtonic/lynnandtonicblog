@@ -8,7 +8,7 @@ tags:
   - diy
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: pinboard3.png
+og: pinboard3.jpg
 ---
 
 ![Pottery Barn pinboards](/img/pinboard3.png)
