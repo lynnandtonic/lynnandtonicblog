@@ -9,7 +9,7 @@ tags:
   - ikea
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/glasort-kulle/
-og: ikea-glasort-kulle.jpeg
+og: ikea-glasort-kulle.jpg
 ---
 
 I was enjoying my weekly IKEA.com browse and I came across this duvet cover set. I would have _loved_ a bed linen set like this as a kid. It’s so colorful and fun (and cheap)!

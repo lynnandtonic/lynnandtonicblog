@@ -6,7 +6,7 @@ tags:
   - diy
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: instagram-buttons.jpeg
+og: instagram-buttons.jpg
 ---
 
 ![1" buttons of Zoidberg, Mario, Star wars, etc.](/img/instagram-buttons.jpeg)

@@ -7,7 +7,7 @@ tags:
   - christmas
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: hipster-ornaments.jpeg
+og: hipster-ornaments.jpg
 ---
 
 Clay and I are always looking for fun and unique Christmas ornaments to add to our collection. I laughed when I saw these [hipster ornaments from CB2](http://www.cb2.com/shop-holiday/holiday/tattoo-artist-ornament/f8069). You can choose from the tattoo artist, the barista, the bartender, and the bike messenger.

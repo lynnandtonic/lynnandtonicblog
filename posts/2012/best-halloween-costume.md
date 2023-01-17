@@ -7,7 +7,7 @@ tags:
   - halloween
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
-og: halloween-dave-bighead.jpeg
+og: halloween-dave-bighead.jpg
 ---
 
 Although he wasn’t eligible for the costume contest at our company party, my boss Dave had a pretty amazing costume. He had a local custom piñata maker create an oversized version of his own head. I can only imagine the hilarious ways we’ll be using this in the future!
