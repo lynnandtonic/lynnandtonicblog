@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://loquacious-tarsier-092e20.netlify.com/* https://lynnandtonicblog.com/:splat 301!
