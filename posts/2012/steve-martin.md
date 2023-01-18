@@ -7,6 +7,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: steve-martin.jpg
 ---
 
 > “A day without sunshine is like, you know, night.”

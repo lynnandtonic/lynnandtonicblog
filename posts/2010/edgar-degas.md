@@ -7,6 +7,7 @@ tags:
   - art
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: edgar-degas.jpg
 ---
 
 > “Painting is easy when you don’t know how, but very difficult when you do.”

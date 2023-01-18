@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: mignon-mclaughlin.jpg
 ---
 
 > “Don’t be yourself - be someone a little nicer.”

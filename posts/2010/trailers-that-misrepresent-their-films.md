@@ -7,6 +7,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: trailer-family-stone.jpg
 ---
 
 I’ve written here about how much I love movie trailers. I truly believe it’s an art form. It isn’t easy to condense a 2-hour movie into 2 minutes without giving away too much, while still enticing you to see it, and while realistically representing the experience you’ll have. Some trailers get it exactly right, while others miss the mark so much that it actually _worsens_ your opinion of the film. After all, expectations are everything. Here are a few trailers that so severely misrepresented the films that I couldn’t fully appreciate what the films had to offer.  

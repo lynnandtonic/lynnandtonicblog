@@ -7,6 +7,7 @@ tags:
   - film
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: steve-stifler.jpg
 ---
 
 > “I say let’s make this weekend our bitch.”

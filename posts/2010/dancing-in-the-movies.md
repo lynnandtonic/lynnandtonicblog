@@ -7,6 +7,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: dancing-in-the-movies.jpg
 ---
 
 I’ll admit it; I’m a sucker for cheesy dance sequences. The choreographed prom dance in _She’s All That_? Love it. Jennifer Garner doing the Thriller dance in _13 Going on 30_? Amazing. _Center Stage_, _Stomp the Yard_, _Strictly Ballroom_? Can’t get enough. This video made me pretty happy. It’s a compilation of dance sequences from various movies set to the theme from _Footloose_. Can you name them all?

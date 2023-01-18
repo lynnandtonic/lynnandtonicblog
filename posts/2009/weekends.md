@@ -9,6 +9,7 @@ tags:
   - charlyne yi
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: paper-heart-trailer.jpg
 ---
 
 This weekend has been quite satisfactory indeed. Friday night Clay and I went to see _Year One_. It was pretty funny, but very raunchy. I should have expected it, but some parts were pretty gross. I do love Jack Black and Michael Cera.

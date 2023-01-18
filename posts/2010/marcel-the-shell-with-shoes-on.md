@@ -7,6 +7,7 @@ tags:
   - internet
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: marcel-the-shell.jpg
 ---
 
 I wasn’t going to post this, as I’m sure most of you have seen it. But I just had to in the hope that maybe you haven’t. I simply can’t get over how cute and hilarious this is. Jenny Slate and Dean Fleischer-Camp are geniuses.

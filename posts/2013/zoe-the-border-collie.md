@@ -7,6 +7,7 @@ tags:
   - dogs
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: zoe-the-dog.jpg
 ---
 
 Try having a bad day after watching this. Zoe the border collie performs amazing and joyful tricks.

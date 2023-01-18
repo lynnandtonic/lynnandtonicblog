@@ -8,6 +8,7 @@ tags:
   - star wars
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: dog-strikes-back.jpg
 ---
 
 Volkswagen released a follow-up commercial to its awesome miniature Darth Vader one from last year ([see here](/2011/10/06/the-force-volkswagen-commercial/)). While this one isn’t quite as charming, it does feature a cute dog and a _Star Wars_ cantina scene at the end. And truthfully, what more do you need?

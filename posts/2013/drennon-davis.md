@@ -7,6 +7,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: drennon-davis.jpg
 ---
 
 Over the holiday, Clay and I visited family in San Francisco. While there was plenty of food and games to go around, we also saw a handful of really entertaining shows. We visited Cobb’s Comedy Club to see the Daily Show’s John Oliver, with Alex Koll and Drennon Davis opening.

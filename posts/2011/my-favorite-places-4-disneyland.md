@@ -8,6 +8,7 @@ tags:
   - disneyland
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: tilt-shift-disney.jpg
 ---
 
 <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/HyZfIlxwsfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

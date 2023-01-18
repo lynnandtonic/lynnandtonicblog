@@ -6,6 +6,7 @@ tags:
   - 30 before 30
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
+og: penn-and-teller-constitution.jpg
 ---
 
 I’m happy to cross off the first item on my [30 Before 30](/2012/04/13/30-before-30/) list I created in April, #22: <span style="text-decoration:line-through;">Re-read the U.S. Constitution</span>.

@@ -8,6 +8,7 @@ tags:
   - marvel
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: iron-man-3.jpg
 ---
 
 Wow. Can’t wait for this one!

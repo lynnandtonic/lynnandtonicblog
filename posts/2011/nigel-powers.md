@@ -8,6 +8,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: nigel-powers.jpg
 ---
 
 > “There are two kinds of people I can’t stand – those who are intolerant of other cultures and the Dutch.”

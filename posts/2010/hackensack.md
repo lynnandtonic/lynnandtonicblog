@@ -7,6 +7,7 @@ tags:
   - fountains of wayne
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: katy-perry-hackensack.jpg
 ---
 
 I still can’t get enough of this: Katy Perry’s version of Fountains of Wayne’s _Hackensack_. An amazingly perfect pop song that proves, with the right song, even the most annoying of artists can be great.

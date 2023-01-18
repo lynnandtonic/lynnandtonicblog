@@ -6,6 +6,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: ava-the-gift.jpg
 ---
 
 If I’m ever having a bad day, this song instantly makes me feel better. AVA represents love and eternal optimism and I can’t get enough.

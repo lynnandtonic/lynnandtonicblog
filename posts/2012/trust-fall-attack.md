@@ -6,6 +6,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: trust-fall-attack.jpg
 ---
 
 Just in case you’re in need of a laugh. This one has me giggling every time.

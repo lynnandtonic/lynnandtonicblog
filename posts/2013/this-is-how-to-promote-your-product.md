@@ -7,6 +7,7 @@ tags:
   - technology
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: skype-ad.jpg
 ---
 
 Wow. A Skype commercial that sells its product in the most unbelievable, moving way. I definitely cried. It’s beautiful.

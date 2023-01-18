@@ -7,6 +7,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: dan-burns.jpg
 ---
 
 > “Instead of telling our young people to plan ahead, we should tell them to plan to be surprised.”

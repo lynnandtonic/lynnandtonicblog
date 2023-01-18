@@ -8,6 +8,7 @@ tags:
   - christmas
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: buddy-the-elf.jpg
 ---
 
 > “The best way to spread Christmas cheer is singing loud for all to hear.”

@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/nicholas-flood-davis/
+og: nicholas-flood-davin.jpg
 ---
 
 > “...you can never be happy and dress yourself solely in the glass of other men’s approval.”

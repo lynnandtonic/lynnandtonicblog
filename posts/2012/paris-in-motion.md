@@ -8,6 +8,7 @@ tags:
   - paris
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: paris-in-motion.jpg
 ---
 
 Check out these incredible videos of Paris by Mayeul Akpovi. He used time lapse and stop motion photography. Stunning.

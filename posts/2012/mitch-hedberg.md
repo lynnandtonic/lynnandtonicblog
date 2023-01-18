@@ -7,6 +7,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: mitch-hedberg.jpg
 ---
 
 > “Every book is a children’s book if the kid can read.”

@@ -7,6 +7,7 @@ tags:
   - instagram
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: connor-mcsheffrey.jpg
 ---
 
 This is gorgeous. Instagram video by the talented [Connor McSheffrey](https://twitter.com/mcsheffrey). You’ll want to [follow his Instagram](http://instagram.com/connor).

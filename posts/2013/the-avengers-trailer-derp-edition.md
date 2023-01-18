@@ -9,6 +9,7 @@ tags:
   - marvel
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: avengers-derp.jpg
 ---
 
 Slaktory has recut the Avengers trailer with scenes from their blooper reel. Hilarious!

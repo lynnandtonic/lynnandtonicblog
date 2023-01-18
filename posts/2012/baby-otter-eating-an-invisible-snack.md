@@ -6,6 +6,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: baby-otter.jpg
 ---
 
 Just because.

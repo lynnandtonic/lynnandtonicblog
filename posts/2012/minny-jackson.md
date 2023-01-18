@@ -7,6 +7,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: minny-jackson.jpg
 ---
 
 > “Fried chicken just tend to make you feel better about life.”

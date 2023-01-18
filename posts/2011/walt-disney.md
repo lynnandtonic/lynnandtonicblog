@@ -7,6 +7,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: walt-disney.jpg
 ---
 
 > “Of all of our inventions for mass communication, pictures still speak the most universally understood language.”

@@ -7,6 +7,7 @@ tags:
   - film
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: willy-wonka.jpg
 ---
 
 > “A little nonsense now and then is relished by the wisest men.”

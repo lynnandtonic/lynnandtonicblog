@@ -9,6 +9,7 @@ tags:
   - the office
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
+og: michael-scott.jpg
 ---
 
 > “Would I rather be feared or loved? Easy, both. I want people to be afraid of how much they love me.”

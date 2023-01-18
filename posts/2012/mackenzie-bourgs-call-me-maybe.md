@@ -7,6 +7,7 @@ tags:
   - television
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: mackenzie-bourg-call-me-maybe.jpg
 ---
 
 I’m a sucker for sugary pop songs and _Call Me Maybe_ is no exception. I didn’t think I could like this song much more, until I saw MacKenzie Bourg perform it on _The Voice_ tonight. I seriously love his version and he’s definitely one of my favorites this season.

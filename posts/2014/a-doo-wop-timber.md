@@ -6,6 +6,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: doo-wop-timber.jpg
 ---
 
 If you think that Ke$ha/Pitbull song “Timber” is pretty silly, you may change your mind after hearing this version.

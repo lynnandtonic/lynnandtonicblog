@@ -8,6 +8,7 @@ tags:
   - harry potter
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: dumbledore.jpg
 ---
 
 > “It takes a great deal of courage to stand up to your enemies, but a great deal more to stand up to your friends.”

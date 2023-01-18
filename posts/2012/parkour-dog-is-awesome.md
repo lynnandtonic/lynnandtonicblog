@@ -7,6 +7,7 @@ tags:
   - dogs
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: parkour-dog.jpg
 ---
 
 So cool! I think Boomer would actually be pretty good at this.

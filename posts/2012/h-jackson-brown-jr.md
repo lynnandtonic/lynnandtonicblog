@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: h-jackson-brown-jr.jpg
 ---
 
 > “Live so that when your children think of fairness and integrity, they think of you.”

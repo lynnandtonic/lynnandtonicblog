@@ -7,6 +7,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: pentatonix-xmas.jpg
 ---
 
 This will get you in the Christmas spirit. Amazing.

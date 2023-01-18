@@ -7,6 +7,7 @@ tags:
   - education
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
+og: asap-science-love.jpg
 ---
 
 Just for fun.

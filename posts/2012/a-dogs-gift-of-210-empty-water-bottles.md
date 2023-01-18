@@ -8,6 +8,7 @@ tags:
   - dogs
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: dog-water-bottles.jpg
 ---
 
 This is so cute. The Santa hat adds a hilarious touch.

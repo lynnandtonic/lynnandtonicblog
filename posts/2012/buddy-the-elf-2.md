@@ -8,6 +8,7 @@ tags:
   - christmas
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-2/
+og: buddy-the-elf.jpg
 ---
 
 > “I just like to smile, smiling’s my favorite.”

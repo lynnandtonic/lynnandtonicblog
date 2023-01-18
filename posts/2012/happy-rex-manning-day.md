@@ -7,6 +7,7 @@ tags:
   - celebrate
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: rex-manning.jpg
 ---
 
 You may not know that today, along with being Easter, is also Rex Manning Day. April 8th is the day Sexy Rexy visited Empire Records and craziness followed. Don’t forget to glue your quarters to the floor and to be more sly when stealing rap, metal, or Whitney Houston CDs. And when someone asks you “What’s with you today?”, you can respond calmly with “What’s with today, today?”

@@ -8,6 +8,7 @@ tags:
   - technology
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: ie-90s.jpg
 ---
 
 I’ve made fun of Internet Explorer as much as the next web designer, but I have to say “Bravo!” to the folks at IE for this nostalgia-filled awesomeness.

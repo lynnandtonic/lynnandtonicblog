@@ -8,6 +8,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: winnie-the-pooh-trailer.jpg
 ---
 
 I love trailers and this is about as perfect as it gets: beautiful animation, appropriately touching music, and a cast of characters that define generations. Nostalgia and Disney at their best.

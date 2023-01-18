@@ -8,6 +8,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: catching-fire-trailer.jpg
 ---
 
 Oh, shit!

@@ -7,6 +7,7 @@ tags:
   - lord of the rings
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: elijah-prank.jpg
 ---
 
 A group of us from [meltmedia](http://meltmedia.com) are dressing up as the Fellowship of the Ring for Halloween this year. I’ve been researching my costume, as I’m dressing up as Pippin. It’s brought me back to the time I used to watch the films every evening after school. I was way into the production of the trilogy and followed the actors, too. This classic video is of Dominic Monaghan (Merry) holding a prank interview with Elijah Wood (Frodo) and it is hilaaaarious. “When will you wear wigs?”

@@ -8,6 +8,7 @@ tags:
   - lego
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: lego-movie-making.jpg
 ---
 
 Some more animation goodness. Everything is awesome in this video showing the process behind _The LEGO Movie_. Creating the realistically miniature world was all about attention to detail. I especially love how it’s computer animation, but feels like stop-motion.

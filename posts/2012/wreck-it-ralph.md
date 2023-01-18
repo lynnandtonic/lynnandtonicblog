@@ -8,6 +8,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: wreck-it-ralph-trailer.jpg
 ---
 
 This looks awesome.

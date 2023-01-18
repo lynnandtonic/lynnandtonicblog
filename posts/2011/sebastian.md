@@ -8,6 +8,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: sebastian-crab.jpg
 ---
 
 > “The seaweed is always greener in somebody else’s lake.”

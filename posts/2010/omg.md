@@ -7,6 +7,7 @@ tags:
   - dogs
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: cool-dog.jpg
 ---
 
 This. Dog. Is. Awesome. Best part by far is at about 1:22. Love it.

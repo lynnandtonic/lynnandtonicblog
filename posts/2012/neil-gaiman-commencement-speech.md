@@ -7,6 +7,7 @@ tags:
   - education
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: neil-gaiman-commencement.jpg
 ---
 
 The kind of commencement speech every art student deserves. Inspirational.

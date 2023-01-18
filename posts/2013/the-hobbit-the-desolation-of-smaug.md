@@ -8,6 +8,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: hobbit-gandalf.jpg
 ---
 
 Teaser trailer! Looks awesome!

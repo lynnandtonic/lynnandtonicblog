@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: george-bernard-shaw.jpg
 ---
 
 > “The single biggest problem with communication is the illusion that it has taken place.”

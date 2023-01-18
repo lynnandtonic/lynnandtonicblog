@@ -7,6 +7,7 @@ tags:
   - nintendo
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: multitrack-mario.jpg
 ---
 
 Still loving all the a capella multitracks that are popping up. This one is dedicated to the iconic Mario theme music.

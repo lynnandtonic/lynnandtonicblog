@@ -8,6 +8,7 @@ tags:
   - lord of the rings
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: galadriel.jpg
 ---
 
 > “Even the smallest person can change the course of the future.”

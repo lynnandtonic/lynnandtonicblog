@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: oscar-wilde.jpg
 ---
 
 > “It is not uncommon to commiserate with a stranger’s misfortune, but it takes a really fine nature to appreciate a friend's success.”

@@ -7,6 +7,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: gretchen-wieners.jpg
 ---
 
 > “Oh my God, Karen, you can’t just ask people why they’re white.”

@@ -8,6 +8,7 @@ tags:
   - harry potter
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: sirius-black.jpg
 ---
 
 > “We have all got both light and dark inside us. What matters is the power we choose to act on. That’s who we really are.”

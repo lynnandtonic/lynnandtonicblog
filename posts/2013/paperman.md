@@ -9,6 +9,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: paperman.jpg
 ---
 
 If you saw _Wreck-it Ralph_, I hope you also got there early enough to see the Disney animated short _Paperman_. Actually, hold up. If you haven’t seen _Wreck-it Ralph_, find a way to see it immediately. I don’t care if the closest theater playing it is 150 miles away. I promise it will be worth it.

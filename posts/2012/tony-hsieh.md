@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: tony-hsieh.jpg
 ---
 
 > “Don’t be cocky. Don’t be flashy. There’s always someone better than you.”

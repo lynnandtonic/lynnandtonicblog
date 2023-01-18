@@ -9,6 +9,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: after-ever-after.jpg
 ---
 
 Not long ago I discovered my love for solo, multitrack a capella performances (see [Matt Mullholland](/2011/06/10/matt-mulholland/)). This one is pretty awesome. Not only is he a great singer, but he sings about the lives of Disney princesses after the films end. Hilarious.

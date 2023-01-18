@@ -6,6 +6,7 @@ tags:
   - music
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: at-the-drive-in.jpg
 ---
 
 I’m not into the Coachella lineup usually (not enough cheesy pop for my taste). But At the Drive-In? Pretty tempting!

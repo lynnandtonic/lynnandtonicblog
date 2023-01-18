@@ -8,6 +8,7 @@ tags:
   - lord of the rings
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: hobbit-gandalf.jpg
 ---
 
 Clay: “What is a lizard that changes its color?”

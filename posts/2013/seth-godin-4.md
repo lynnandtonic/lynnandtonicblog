@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}-4/
+og: seth-godin.jpg
 ---
 
 > “People won’t follow you if they don’t believe you can get to where you say you’re going.”

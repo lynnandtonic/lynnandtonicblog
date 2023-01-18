@@ -6,6 +6,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: henry-david-thoreau.jpg
 ---
 
 > “Success usually comes to those who are too busy to be looking for it.”

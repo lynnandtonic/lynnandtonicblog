@@ -7,6 +7,7 @@ tags:
   - video games
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: skate-video.jpg
 ---
 
 This video is hilarious. I started crying I was laughing so hard.

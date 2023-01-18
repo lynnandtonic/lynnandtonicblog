@@ -9,6 +9,7 @@ tags:
   - museums
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: louvre-cezanne.jpg
 ---
 
 ![“Keep good company. That is, go to the Louvre.” - Paul Cezanne](/img/louvre-cezanne.jpg)

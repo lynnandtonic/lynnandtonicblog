@@ -8,6 +8,7 @@ tags:
   - funnies
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: elaine-dickinson.jpg
 ---
 
 > “There’s no reason to become alarmed, and we hope you’ll enjoy the rest of your flight. By the way, is there anyone on board who knows how to fly a plane?”

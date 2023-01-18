@@ -6,6 +6,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: trailers-garden-state.jpg
 ---
 
 I truthfully can’t claim to know anything about filmmaking or about the merits of a good trailer. I do watch a lot of movies and see a lot of trailers, both enticing and not. Trailers are my favorite advertisements. The good ones make me want to see those movies instead. The best ones make me want to watch _them_ over and over again. Sometimes the trailer is better than the movie, and that’s ok. Here are three I keep coming back to.

@@ -7,6 +7,7 @@ tags:
   - books
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: chuck-palahniuk.jpg
 ---
 
 > “We all die. The goal isn’t to live forever, the goal is to create something that will.”

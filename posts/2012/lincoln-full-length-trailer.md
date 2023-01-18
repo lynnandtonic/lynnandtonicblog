@@ -7,6 +7,7 @@ tags:
   - trailers
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: lincoln-trailer.jpg
 ---
 
 So excited for this one. It looks amazing!

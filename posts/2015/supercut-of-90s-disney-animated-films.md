@@ -9,6 +9,7 @@ tags:
   - disney
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: 90s-disney.jpg
 ---
 
 Right in the nostalgia.

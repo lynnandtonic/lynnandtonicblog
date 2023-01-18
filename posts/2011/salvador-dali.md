@@ -7,6 +7,7 @@ tags:
   - art
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: salvador-dali.jpg
 ---
 
 > “There are some days when I think I’m going to die from an overdose of satisfaction.”

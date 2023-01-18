@@ -7,6 +7,7 @@ tags:
   - television
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: mike-chang-sr.jpg
 ---
 
 > “My son got an A-minus on his chemistry test. An A-minus is an Asian F.”

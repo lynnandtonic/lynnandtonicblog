@@ -8,6 +8,7 @@ tags:
   - cats
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: cat-alarm-clock.jpg
 ---
 
 This is awesome.

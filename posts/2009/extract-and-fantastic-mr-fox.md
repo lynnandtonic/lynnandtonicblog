@@ -9,6 +9,7 @@ tags:
   - wes anderson
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: fantastic-mr-fox-trailer.jpg
 ---
 
 Yesterday I saw _Extract_, Mike Judge’s new film starring Jason Bateman. It was pretty funny and had some memorable lines, but wasn’t anything to write home about. One of the previews before the movie was _Fantastic Mr. Fox_, a Wes Anderson film based on the Roald Dahl book. This is a movie I am very excited about. Not only do I love this book, but the film looks witty, whimsical, and distinctly Wes Anderson.

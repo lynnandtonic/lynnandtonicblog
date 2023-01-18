@@ -7,6 +7,7 @@ tags:
   - home
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: lowes-coloring-book.jpg
 ---
 
 I love this new commercial from Lowe’s. So fun.

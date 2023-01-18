@@ -8,6 +8,7 @@ tags:
   - wes anderson
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: moonrise-kingdom-trailer.jpg
 ---
 
 The trailer for Wes Anderson’s new film _Moonrise Kingdom_. Can’t wait to see it.

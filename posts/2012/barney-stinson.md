@@ -7,6 +7,7 @@ tags:
   - television
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: barney-stinson.jpg
 ---
 
 > “When I get sad, I stop being sad and be awesome instead.”

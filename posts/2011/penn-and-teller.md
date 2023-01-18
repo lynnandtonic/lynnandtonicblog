@@ -7,6 +7,7 @@ tags:
   - penn and teller
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: pennandteller.jpg
 ---
 
 > “Nothing makes you love the U.S.A. more than overseas travel.”

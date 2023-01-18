@@ -7,6 +7,7 @@ tags:
   - quotes
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
+og: alice-in-wonderland.jpg
 ---
 
 > “Sometimes I believe as many as six impossible things before breakfast.”
