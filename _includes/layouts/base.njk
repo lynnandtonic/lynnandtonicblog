@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary">
     <meta content="@lynnandtonic" name="twitter:site">
     <meta content="@lynnandtonic" name="twitter:creator">
-    <meta content="{{ description }}" property="og:description">
+    <meta content="{{ description or metadata.description }}" property="og:description">
     <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="og:url">
     <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="twitter:url">
     <meta content="{{ title or metadata.title }}" name="twitter:title" property="og:title">
