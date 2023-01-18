@@ -32,6 +32,11 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy/LL/dd");
   })
 
+
+    eleventyConfig.addFilter("feedDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("yyyy-LL-dd");
+  })
+
   // markdown for excerpt
   eleventyConfig.addFilter("md2", function (content = "") {
     return markdownIt({ html: true }).render(content);
