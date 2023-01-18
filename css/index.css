@@ -40,7 +40,7 @@ q::before, q::after {
 
 :root {
   --primary-text: #132730;
-  --secondary-text: lightslategrey;
+  --secondary-text: slategrey;
   --link-text: mediumvioletred;
 }
 
