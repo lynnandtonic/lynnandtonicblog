@@ -14,24 +14,24 @@ We watched _a lot_ of TV series this year. I absolutely loved watching the final
 
 This list though is my favorite TV series or mini series that debuted this year.
 
-![Selena The Series](https://lynnandtonic.com/images/blog/series-2020-selena.jpg) 10. Selena The Series
+![Selena The Series](/img/series-2020-selena.jpg) 10. Selena The Series
 
-![McMillions](https://lynnandtonic.com/images/blog/series-2020-mcmillions.jpg) 9. McMillions
+![McMillions](/img/series-2020-mcmillions.jpg) 9. McMillions
 
-![Never Have I Ever](https://lynnandtonic.com/images/blog/series-2020-never-have-i-ever.jpg) 8. Never Have I Ever
+![Never Have I Ever](/img/series-2020-never-have-i-ever.jpg) 8. Never Have I Ever
 
-![Watchmen](https://lynnandtonic.com/images/blog/series-2020-watchmen.jpg) 7. Watchmen
+![Watchmen](/img/series-2020-watchmen.jpg) 7. Watchmen
 
-![Love Life](https://lynnandtonic.com/images/blog/series-2020-love-life.jpg) 6. Love Life
+![Love Life](/img/series-2020-love-life.jpg) 6. Love Life
 
-![Little Fires Everywhere](https://lynnandtonic.com/images/blog/series-2020-little-fires-everywhere.jpg) 5. Little Fires Everywhere
+![Little Fires Everywhere](/img/series-2020-little-fires-everywhere.jpg) 5. Little Fires Everywhere
 
-![The Queen’s Gambit](https://lynnandtonic.com/images/blog/series-2020-the-queens-gambit.jpg) 4. The Queen’s Gambit
+![The Queen’s Gambit](/img/series-2020-the-queens-gambit.jpg) 4. The Queen’s Gambit
 
-![Lovecraft Country](https://lynnandtonic.com/images/blog/series-2020-lovecraft-country.jpg) 3. Lovecraft Country
+![Lovecraft Country](/img/series-2020-lovecraft-country.jpg) 3. Lovecraft Country
 
-![Devs](https://lynnandtonic.com/images/blog/series-2020-devs.jpg) 2. Devs
+![Devs](/img/series-2020-devs.jpg) 2. Devs
 
-![Ted Lasso](https://lynnandtonic.com/images/blog/series-2020-ted-lasso.jpg) 1. Ted Lasso
+![Ted Lasso](/img/series-2020-ted-lasso.jpg) 1. Ted Lasso
 
 ---

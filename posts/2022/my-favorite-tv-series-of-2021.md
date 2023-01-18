@@ -14,26 +14,26 @@ I didn’t catch as many new shows as I would have liked this year (honestly, ho
 
 This list is my favorite TV series or miniseries that debuted in 2021 (plus one comedy special). This criteria is interesting since a lot of my all-time favorite shows don’t really figure themselves out until season 2 or later. So should be fun to revisit this in a few years.
 
-![Sweet Tooth](https://lynnandtonic.com/images/blog/series-2021-sweet-tooth.jpg) 11. Sweet Tooth
+![Sweet Tooth](/img/series-2021-sweet-tooth.jpg) 11. Sweet Tooth
 
-![Schmigadoon!](https://lynnandtonic.com/images/blog/series-2021-schmigadoon.jpg) 10. Schmigadoon!
+![Schmigadoon!](/img/series-2021-schmigadoon.jpg) 10. Schmigadoon!
 
-![Mare of Easttown](https://lynnandtonic.com/images/blog/series-2021-mare-of-easttown.jpg) 9. Mare of Easttown
+![Mare of Easttown](/img/series-2021-mare-of-easttown.jpg) 9. Mare of Easttown
 
-![Loki](https://lynnandtonic.com/images/blog/series-2021-loki.jpg) 8. Loki
+![Loki](/img/series-2021-loki.jpg) 8. Loki
 
-![Only Murders in the Building](https://lynnandtonic.com/images/blog/series-2021-only-murders-in-the-building.jpg) 7. Only Murders in the Building
+![Only Murders in the Building](/img/series-2021-only-murders-in-the-building.jpg) 7. Only Murders in the Building
 
-![Hacks](https://lynnandtonic.com/images/blog/series-2021-hacks.jpg) 6. Hacks
+![Hacks](/img/series-2021-hacks.jpg) 6. Hacks
 
-![Squid Game](https://lynnandtonic.com/images/blog/series-2021-squid-game.jpg) 5. Squid Game
+![Squid Game](/img/series-2021-squid-game.jpg) 5. Squid Game
 
-![Rutherford Falls](https://lynnandtonic.com/images/blog/series-2021-rutherford-falls.jpg) 4. Rutherford Falls
+![Rutherford Falls](/img/series-2021-rutherford-falls.jpg) 4. Rutherford Falls
 
-![Made for Love](https://lynnandtonic.com/images/blog/series-2021-made-for-love.jpg) 3. Made for Love
+![Made for Love](/img/series-2021-made-for-love.jpg) 3. Made for Love
 
-![WandaVision](https://lynnandtonic.com/images/blog/series-2021-wandavision.jpg) 2. WandaVision
+![WandaVision](/img/series-2021-wandavision.jpg) 2. WandaVision
 
-![Bo Burnham: Inside](https://lynnandtonic.com/images/blog/series-2021-inside.jpg) 1. Bo Burnham: Inside
+![Bo Burnham: Inside](/img/series-2021-inside.jpg) 1. Bo Burnham: Inside
 
 ---
