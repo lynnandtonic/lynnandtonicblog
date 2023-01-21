@@ -108,9 +108,14 @@ main * + * {
   margin-top: 1.3em;
 }
 
+.entry-content ul {
+  padding-left: 1em;
+  list-style: disc;
+}
+
 main li + li,
 aside li + li {
-  margin-top: .5em;
+  margin-top: .3em;
 }
 
 aside {
@@ -128,6 +133,7 @@ aside a:hover {
 
 img {
   width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -161,6 +167,10 @@ ol.numbered {
 .center img {
   margin-left: auto;
   margin-right: auto;
+}
+
+.right {
+  text-align: right;
 }
 
 .entry,
@@ -259,7 +269,7 @@ main h1 .tag {
   display: block;
   color: var(--secondary-text);
   font-size: .85em;
-  margin-top: -.75em;
+  margin-top: -.9em;
 }
 
 .youtube-video {
