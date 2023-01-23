@@ -46,6 +46,6 @@ It was especially difficult because movies released earlier in the decade have t
 
 ...
 
-**Honorable mentions:** Parasite Moana Crazy Stupid Love Thor: Ragnarok Searching This Is The End
+**Honorable mentions:** Parasite, Moana, Crazy Stupid Love, Thor: Ragnarok, Searching, This Is The End
 
 ---
