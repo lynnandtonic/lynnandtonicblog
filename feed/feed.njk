@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}
 	<link href="{{ absoluteUrl }}" rel="self"/>
 	<link href="{{ metadata.url }}"/>
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.posts | getNewestCollectionItemDate | feedDate }}T16:00:00Z</updated>
 	<id>{{ metadata.feed.id }}</id>
 	<author>
 		<name>{{ metadata.author.name }}</name>
@@ -22,7 +22,13 @@ eleventyExcludeFromCollections: true
 			<entry>
 				<title>{{ post.data.title }}</title>
 				<link href="{{ absolutePostUrl }}"/>
-				<updated>{{ post.date | rssDate }}</updated>
+				<updated>{{ post.date | feedDate }}
+					{%- if post.data.time -%}
+						T{{ post.data.time }}Z
+						{%- else -%}
+							T16:00:00Z
+					{%- endif -%}
+					</updated>
 				<id>{{ absolutePostUrl }}</id>
 				<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
 			</entry>

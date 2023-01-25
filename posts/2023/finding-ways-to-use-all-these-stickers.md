@@ -2,6 +2,7 @@
 title: Finding ways to use all these stickers
 description: I never know where to stick stickers, so I started turning them into fridge magnets.
 date: 2023-01-23
+time: "15:40:00"
 tags: 
   - diy
   - home

@@ -23,7 +23,12 @@ eleventyExcludeFromCollections: true
           "url": "{{ absolutePostUrl }}",
           "title": "{{ post.data.title }}",
           "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
-          "date_published": "{{ post.date | rssDate }}"
+          "date_published": "{{ post.date | feedDate }}
+          {%- if post.data.time -%}
+            T{{ post.data.time }}Z
+            {%- else -%}
+              T16:00:00Z
+          {%- endif -%}"
         }
         {%- if not loop.last -%}
         ,
