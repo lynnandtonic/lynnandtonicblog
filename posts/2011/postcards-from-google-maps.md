@@ -7,6 +7,7 @@ tags:
   - photography
   - technology
   - internet
+  - maps
 layout: layouts/post.njk
 permalink: /{{ date | pathDate }}/{{ title | slug }}/
 og: clementvalla3.jpg
