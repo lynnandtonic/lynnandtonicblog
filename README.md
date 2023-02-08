@@ -1,4 +1,10 @@
-# eleventy-base-blog
+# Lynnandtonic Blog
+
+My rando inspiration and lifestyle blog: [lynnandtonicblog.com](https://lynnandtonic.com). Content © Lynn Fisher.
+
+This blog was ported from Wordpress into 11ty using the Eleventy Base Blog:
+
+## eleventy-base-blog
 
 A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
 
