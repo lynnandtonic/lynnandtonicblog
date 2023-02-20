@@ -8,6 +8,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const slugify = require("slugify");
 // const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 // const pluginNavigation = require("@11ty/eleventy-navigation");
+const { execSync } = require('child_process');
 
 
 module.exports = function(eleventyConfig) {
@@ -123,6 +124,11 @@ module.exports = function(eleventyConfig) {
     },
     ui: false,
     ghostMode: false
+  });
+
+  // search
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
   });
 
   return {

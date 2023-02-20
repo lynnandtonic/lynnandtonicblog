@@ -1,0 +1,22 @@
+---
+layout: layouts/home.njk
+permalink: /search/
+---
+
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+<style>
+  .pagefind-ui.svelte-7z8ick {
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: 200;
+    line-height: 1.4;
+  }
+</style>
+
+<h1>Search</h1>
+<noscript>Search requires JavaScript, sorry!</noscript>
+
+<div id="search" class="search"></div>
+
+<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: true });"></script>
+
