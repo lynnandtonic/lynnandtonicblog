@@ -16,7 +16,13 @@ I’ve been wanting dark green Converse for quite some time now, but the only gr
 ![white Converse](/img/converse1.jpg)
 
 I picked up a package of dark green RIT dye (powder) from Walmart for $1.65 and gathered supplies. You will need:  
-\- RIT dye (powder or liquid) - bucket or sink - old towel - mixing bowl or old plastic container - 1 cup salt - 1 tablespoon laundry detergent
+
+- RIT dye (powder or liquid)
+- bucket or sink
+- old towel
+- mixing bowl or old plastic container
+- 1 cup salt
+- 1 tablespoon laundry detergent
 
 First you want to fill a mixing bowl or plastic container with hot water. I used an old Harkins cup. Mix in your powder dye until completely dissolved. If you choose liquid dye, you can skip this step. Next, fill your bucket or sink with hot water and add the salt and laundry detergent. I used a small bucket and an entire package of RIT dye.
 
