@@ -266,6 +266,13 @@ main h1 .tag {
   margin: 2em 0;
 }
 
+.entry-content blockquote.small {
+  font-size: 1em;
+  margin: 1.5em 0;
+  padding-left: 1.5em;
+  border-left: 2px solid #bbb;
+}
+
 .footnotes {
   display: block;
   color: var(--secondary-text);
