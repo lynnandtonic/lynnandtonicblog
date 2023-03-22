@@ -10,7 +10,7 @@ tags:
   - boomer
   - helo
 layout: layouts/post.njk
-permalink: /{{ date | pathDate }}/{{ title | slug }}-3/
+permalink: /{{ date | pathDate }}/{{ title | slug }}/
 og: boomer-og.jpg
 ---
 
