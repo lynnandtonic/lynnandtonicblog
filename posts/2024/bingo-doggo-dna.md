@@ -14,7 +14,7 @@ og: og-doggo-dna.jpg
 
 When we adopted [Gravy](/2023/05/03/meet-gravy/) last April, the shelter suggested we get a DNA breed test for him. Maricopa County guessed he was Australian cattle dog mixed with chihuahua, but the shelter wasn’t so sure.
 
-It took a bit for him to get comfortable with a mouth swab, but we finally sent one in. Turns out it’s not chihuahua, but rat terrier! Our sweet girl [Boomer](/2023/03/21/boomer-3/) was also part rat terrier and this news made us feel really happy. We’ve seen some of her joyful energy in him since he’s been getting more and more comfortable with us.
+It took a bit for him to get comfortable with a mouth swab, but we finally sent one in. Turns out it’s not chihuahua, but rat terrier! Our sweet girl [Boomer](/2023/03/22/boomer/) was also part rat terrier and this news made us feel really happy. We’ve seen some of her joyful energy in him since he’s been getting more and more comfortable with us.
 
 ![Gravy DNA results showing 43.9% Rat Terrier, 33.1% Australian Cattle Dog, 10.6% Supermutt, 9.4% Shih Tzu, and 3% American Pit Bull Terrier](/img/gravy-embark.png)
 
