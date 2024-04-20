@@ -16,7 +16,7 @@ og: og-gravy-one-year.jpg
 
 Today we’re celebrating Gravy’s adoption day. It’s been a hard, joyful, and fulfilling year with this little dude.
 
-The first few months were admittedly hard for me. I didn’t realize how my grief from losing [Boomer](/2023/03/22/boomer-3/) and [Helo](/2023/01/03/helo-3/) would present and I struggled with [puppy blues](https://www.choosingtherapy.com/puppy-blues/) for weeks. It was a weird mix of sadness, guilt, and regret and it was rough.
+The first few months were admittedly hard for me. I didn’t realize how my grief from losing [Boomer](/2023/03/22/boomer/) and [Helo](/2023/01/03/helo-3/) would present and I struggled with [puppy blues](https://www.choosingtherapy.com/puppy-blues/) for weeks. It was a weird mix of sadness, guilt, and regret and it was rough.
 
 Gravy is a sweetheart, but definitely a different type of personality than we were used to. A sensitive and scared boy, he needed extra time and especially space to learn to trust us. He’s firm with his boundaries and doesn’t like to be held or showered with affection. You don’t realize how often you kiss your dog on the head until you have a dog that doesn’t like it. 😅
 
