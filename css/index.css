@@ -280,6 +280,10 @@ main h1 .tag {
   margin-top: -.9em;
 }
 
+.footnotes.right {
+  text-align: right;
+}
+
 .youtube-video {
   aspect-ratio: 16 / 9;
   width: 100%;
