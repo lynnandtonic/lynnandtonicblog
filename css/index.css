@@ -173,6 +173,18 @@ ol.numbered {
   text-align: right;
 }
 
+.screenreader {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+}
+
 .entry,
 .postlist-item {
   border-bottom: 1px dotted #ddd;
