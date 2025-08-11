@@ -14,7 +14,7 @@ og: meet-tater-og.jpg
 
 ![a small black and white dog with pointed ears and bright blue eyes lounges on an outdoor couch](/img/meet-tater1.jpg)
 
-Way back in April we decided it was time to get [Gravy](/2024/04/20/one-year-with-gravy/) a bud to hang with. We visited the country shelter, scooped up this little lady, and named her Tater.
+Way back in April we decided it was time to get [Gravy](/2024/04/20/one-year-with-gravy/) a bud to hang with. We visited the county shelter, scooped up this little lady, and named her Tater.
 
 She was about a year old and found wandering the streets of west Phoenix. It really felt like she had a previous owner as she took to her name immediately, coming to us when called from the very start. She knew how to sit and how to fetch a ball.
 
