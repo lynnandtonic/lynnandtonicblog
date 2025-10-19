@@ -40,7 +40,7 @@ q::before, q::after {
 
 :root {
   --primary-text: #132730;
-  --secondary-text: slategrey;
+  --secondary-text: #888;
   --link-text: mediumvioletred;
 }
 
@@ -50,9 +50,10 @@ q::before, q::after {
 
 body {
   padding: 1.5em;
-  font-family: 'Anonymous Pro', monospace;
-  font-weight: 200;
-  line-height: 1.4;
+  /*font-family: 'Anonymous Pro', monospace;*/
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  font-weight: 270;
+  line-height: 1.5;
 }
 
 .container {
@@ -142,7 +143,7 @@ em {
 }
 
 strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a {
@@ -200,7 +201,7 @@ ol.numbered {
 
 .entry-title,
 main h1 {
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -235,7 +236,7 @@ main h1 .tag {
 }
 
 .entry-content {
-  font-size: .96em;
+  font-size: 1em;
 }
 
 .entry-content .direct-link {
@@ -243,11 +244,21 @@ main h1 .tag {
 }
 
 .entry-content h2 {
+  font-size: 1.25em;
   font-weight: 700;
+}
+
+.entry-content h3 {
+  font-size: 1.15em;
+  font-weight: 600;
 }
 
 .entry-content h2 + p:has(img:first-child) {
   margin-top: .25em;
+}
+
+.entry-content p {
+  text-wrap: pretty;
 }
 
 .entry-content img {

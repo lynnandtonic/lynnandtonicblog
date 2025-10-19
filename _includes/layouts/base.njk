@@ -14,24 +14,18 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
 
     <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
-    <meta content="@lynnandtonic" name="twitter:site">
-    <meta content="@lynnandtonic" name="twitter:creator">
+    <meta content="{{ title or metadata.title }}" property="og:title">
     <meta content="{{ description or metadata.description }}" property="og:description">
     <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="og:url">
-    <meta content="https://lynnandtonicblog.com{{ page.url | url }}" property="twitter:url">
-    <meta content="{{ title or metadata.title }}" name="twitter:title" property="og:title">
     {% if og %}
       <meta content="https://lynnandtonicblog.com/img/_og/{{ og }}" property="og:image">
-      <meta content="https://lynnandtonicblog.com/img/_og/{{ og }}" name="twitter:image">
     {% else %}
       <meta content="https://lynnandtonicblog.com/img/_og/og-blog.jpg" property="og:image">
-      <meta content="https://lynnandtonicblog.com/img/_og/og-blog.jpg" name="twitter:image">
     {% endif %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    {# <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> #}
 
   </head>
 
@@ -66,6 +60,7 @@
           <li>🌵 <a href="https://why.az">why.az</a></li>
           <li>🇺🇸 <a href="https://usflags.design">usflags.design</a></li>
           <li>👕 <a href="https://davidrose.style">davidrose.style</a></li>
+          <li>💌 <a href="https://oss.cards">oss.cards</a></li>
         </ul>
         <p>Take a peek at <a href="https://lynnandtonic.com">my portfolio</a>, read more of my <a href="https://lynnandtonic.com/thoughts/">writing on dev and design</a>, or follow me on <a rel="me" href="https://front-end.social/@lynnandtonic">Mastodon</a>.</p>
         <hr>
