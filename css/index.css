@@ -257,9 +257,9 @@ main h1 .tag {
   margin-top: .25em;
 }
 
-.entry-content p {
+/*.entry-content p {
   text-wrap: pretty;
-}
+}*/
 
 .entry-content img {
   margin-bottom: 1.2%;
