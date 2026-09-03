@@ -1,6 +1,6 @@
 ---
 title: Supercut of my dog with random stuff stuck to his face
-description: 
+description: A little video of my sweet little dog, Gravy.
 date: 2026-09-03
 time: "20:00:00"
 tags: 
